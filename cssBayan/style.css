@@ -1,0 +1,43 @@
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+
+.wrapper {
+  font-size: 1rem;
+  margin: 0 auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.main__text {
+  margin-left: 2rem;
+}
+
+.main__wrapper {
+
+}
+
+.item__list {
+  list-style-type: none;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+.footer__wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #ffd858;
+  border: 0.05rem solid black;
+}
+
+.advertisement__text {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
