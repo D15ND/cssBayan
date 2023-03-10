@@ -19,11 +19,37 @@ html {
 
 }
 
-.item__list {
-  list-style-type: none;
-  font-size: 1.2rem;
+.accordion {
+  display: flex;
+  margin-left: 2rem;
 }
 
+.accordion__item {
+  /* display: flex;
+  flex-direction: column; */
+
+}
+
+.accordion__title {
+  background-color: green;
+  display: block;
+  padding: 0.8rem;
+  border: 0.1rem solid black;
+}
+
+.accordion__input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.accordion__img {
+  display: none;
+}
+
+.accordion__input:checked ~ .accordion__img {
+  display: block;
+}
 
 
 

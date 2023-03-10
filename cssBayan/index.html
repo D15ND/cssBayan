@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./adaptive.css">
   <title>cssBayan</title>
-  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./images/favicon3.ico" type="image/x-icon">
 </head>
 <body>
   <header class="header">
@@ -18,20 +18,40 @@
   </header>
   <main class="main">
     <div class="wrapper main__wrapper">
-      <ul class="item__list">
-        <li class="item__block">
-          <label class="item__paragraph">Just do it</label>
-        </li>
-        <li class="item__block">
-          <label class="item__paragraph">My best score</label>
-        </li>
-        <li class="item__block">
-          <label class="item__paragraph">Future tests</label>
-        </li>
-        <li class="item__block">
-          <label class="item__paragraph">Dead inside after RSS</label>
-        </li>
-      </ul>
+      <div class="accordion">
+        <div class="accordion__item">
+          <label class="accordion__title" for="acc_1" >Just do it</label>
+          <input class="accordion__input" type="checkbox" checked="checked" name="acc" id="acc_1">
+          <div class="accordion__img">
+            <img src="./images/1.png" alt="THIS IS SPARTA!!!">
+          </div>
+        </div>
+        <div class="accordion__item">
+          <label class="accordion__title" for="acc_2" >My best score</label>
+          <input class="accordion__input" type="checkbox" name="acc" id="acc_2">
+          <div class="accordion__img">
+            <img src="./images/2.png" alt="THIS IS SPARTA!!!">
+          </div>
+        </div>
+        <div class="accordion__item">
+          <label class="accordion__title" for="acc_3" >Future tests</label>
+          <input class="accordion__input" type="checkbox" name="acc" id="acc_3">
+          <div class="accordion__img">
+            <img src="./images/3.png" alt="THIS IS SPARTA!!!">
+          </div>
+        </div>
+        <div class="accordion__item">
+          <label class="accordion__title" for="acc_4" >Future tests</label>
+          <input class="accordion__input" type="checkbox" name="acc" id="acc_4">
+          <div class="accordion__img">
+            <img src="./images/last.png" alt="THIS IS SPARTA!!!">
+          </div>
+        </div>
+      </div>
+
+      <!--
+      Future tests
+      Dead inside after RSS -->
     </div>
   </main>
   <footer class="footer">
