@@ -88,6 +88,14 @@ img {
   font-size: 2rem;
 }
 
+.accordion__input:hover ~ .accordion__title .plus__anim {
+  rotate: 45deg;
+}
+
+.accordion__img:hover {
+  height: 14rem;
+}
+
 .accordion__input:hover ~ .accordion__img {
   height: 14rem;
 }
