@@ -34,9 +34,19 @@ img {
 
 
 /* Desktop */
-/* @media only screen and (min-width: 767px) and (min-height: 1080px) {
-.main__text {
+@media only screen and (min-width: 767px) and (min-height: 1080px) {
+.wrapper {
+  width: 60rem;
+}
+
+  .main__text {
   font-size: 5rem;
+}
+
+.accordion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .accordion__title {
@@ -49,16 +59,37 @@ img {
 .plus__anim {
   height: 3rem;
   width: 3rem;
+  display: none;
 }
 
 img {
   width: 35rem;
+  cursor: pointer;
 }
 
 .accordion__title:hover {
-  color: yellowgreen;
+  color: red;
   background-color: blue;
   border: 0.2rem solid red;
 }
 
-} */
+.accordion:hover .plus__anim{
+  display: block;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 66rem;
+}
+
+.advertisement__text {
+  font-size: 2rem;
+}
+
+.accordion__input:hover ~ .accordion__img {
+  height: 14rem;
+}
+
+}
