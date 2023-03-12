@@ -12,7 +12,8 @@ html {
 
 
 .main__text {
-  margin-left: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .main__wrapper {
@@ -21,12 +22,10 @@ html {
 
 .accordion {
   display: flex;
-  margin-left: 2rem;
+  flex-direction: column;
 }
 
 .accordion__item {
-  /* display: flex;
-  flex-direction: column; */
 
 }
 
@@ -35,6 +34,8 @@ html {
   display: block;
   padding: 0.8rem;
   border: 0.1rem solid black;
+  margin: auto;
+  width: 15rem;
 }
 
 .accordion__input {
@@ -47,7 +48,16 @@ html {
   display: none;
 }
 
-.accordion__input:checked ~ .accordion__img {
+img {
+  display: flex;
+  width: 17rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5rem;
+  max-height: 14rem;
+}
+
+.accordion__input:checked + .accordion__img {
   display: block;
 }
 
