@@ -10,14 +10,9 @@ html {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
 .main__text {
   display: flex;
   justify-content: center;
-}
-
-.main__wrapper {
-
 }
 
 .accordion {
@@ -25,17 +20,15 @@ html {
   flex-direction: column;
 }
 
-.accordion__item {
-
-}
-
 .accordion__title {
   background-color: green;
-  display: block;
   padding: 0.8rem;
   border: 0.1rem solid black;
   margin: auto;
   width: 15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .accordion__input {
@@ -45,7 +38,9 @@ html {
 }
 
 .accordion__img {
-  display: none;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-in;
 }
 
 img {
@@ -57,14 +52,22 @@ img {
   max-height: 14rem;
 }
 
-.accordion__input:checked + .accordion__img {
-  display: block;
+.plus__anim {
+  background-image: url(./images/plusicon.svg);
+  background-size: contain;
+  rotate: 0deg;
+  transition: all 0.3s ease-in-out;
+  height: 1rem;
+  width: 1rem;
 }
 
+.accordion__input:checked ~ .accordion__img {
+  height: 14rem;
+}
 
-
-
-
+.accordion__input:checked ~ .accordion__title .plus__anim {
+  rotate: 45deg;
+}
 
 .footer__wrapper {
   display: flex;
