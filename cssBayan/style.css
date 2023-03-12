@@ -37,6 +37,7 @@ html {
 }
 
 .accordion__img {
+  display: block;
   height: 0;
   overflow: hidden;
   transition: all 0.5s ease-in;

@@ -39,8 +39,8 @@ img {
   width: 60rem;
 }
 
-  .main__text {
-  font-size: 5rem;
+.main__text {
+  font-size: 5.2rem;
 }
 
 .accordion {
@@ -52,7 +52,7 @@ img {
 .accordion__title {
   width: 60rem;
   padding: 3rem;
-  font-size: 2.3rem;
+  font-size: 2.7rem;
   cursor: pointer;
 }
 
@@ -92,12 +92,23 @@ img {
   rotate: 45deg;
 }
 
+.accordion__input:checked ~ .accordion__title  {
+  color: red;
+  background-color: blue;
+  border: 0.2rem solid red;
+}
+
 .accordion__img:hover {
   height: 14rem;
+}
+
+.accordion__item:hover ~ .accordion__title {
+  color: red;
+  background-color: blue;
+  border: 0.2rem solid red;
 }
 
 .accordion__input:hover ~ .accordion__img {
   height: 14rem;
 }
-
 }
