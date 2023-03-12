@@ -1,0 +1,64 @@
+/* Table */
+@media only screen and (min-width: 820px) and (min-height: 1180px) {
+.main__text {
+  font-size: 5rem;
+}
+
+.accordion__title {
+  width: 30rem;
+}
+
+img {
+  width: 35rem;
+}
+
+.accordion__title {
+  padding: 2.5rem;
+  font-size: 2.5rem;
+}
+
+.footer__wrapper {
+  padding: 2rem;
+}
+
+.advertisement__text {
+  font-size: 2.2rem;
+}
+
+.plus__anim {
+  width: 2rem;
+  height: 2rem;
+}
+
+}
+
+
+/* Desktop */
+/* @media only screen and (min-width: 767px) and (min-height: 1080px) {
+.main__text {
+  font-size: 5rem;
+}
+
+.accordion__title {
+  width: 60rem;
+  padding: 3rem;
+  font-size: 2.3rem;
+  cursor: pointer;
+}
+
+.plus__anim {
+  height: 3rem;
+  width: 3rem;
+}
+
+img {
+  width: 35rem;
+}
+
+.accordion__title:hover {
+  color: yellowgreen;
+  background-color: blue;
+  border: 0.2rem solid red;
+}
+
+} */
