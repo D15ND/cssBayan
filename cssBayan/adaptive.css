@@ -34,7 +34,7 @@ img {
 
 
 /* Desktop */
-@media only screen and (min-width: 767px) and (min-height: 1080px) {
+@media only screen and (min-width: 1920px) and (min-height: 1080px) {
 .wrapper {
   width: 60rem;
 }
