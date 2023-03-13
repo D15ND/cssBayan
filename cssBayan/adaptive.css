@@ -112,3 +112,20 @@ img {
   height: 14rem;
 }
 }
+
+/* media hover to hover */
+@media (hover:hover) {
+  .accordion__title:hover {
+    color: red;
+    background-color: blue;
+    cursor: pointer;
+  }
+
+  .img:hover {
+    cursor: pointer;
+  }
+
+  .accordion__img:hover {
+    cursor: pointer;
+  }
+}
