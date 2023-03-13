@@ -1,0 +1,152 @@
+/* Mobile */
+@media only screen and (min-width: 320px) and (min-height: 568px) {
+.main__text {
+  font-size: 1rem;
+}
+
+.accordion__title {
+  font-size: 1rem;
+}
+
+.footer__wrapper {
+  font-size: 0.9rem;
+}
+
+}
+
+/* Table */
+@media only screen and (min-width: 820px) and (min-height: 1180px) {
+.main__text {
+  font-size: 5rem;
+}
+
+.accordion__title {
+  width: 30rem;
+}
+
+img {
+  width: 35rem;
+}
+
+.accordion__title {
+  padding: 2.5rem;
+  font-size: 2.5rem;
+}
+
+.footer__wrapper {
+  padding: 2rem;
+}
+
+.advertisement__text {
+  font-size: 2.2rem;
+}
+
+.plus__anim {
+  width: 2rem;
+  height: 2rem;
+}
+
+}
+
+
+/* Desktop */
+@media only screen and (min-width: 1920px) and (min-height: 1080px) {
+.wrapper {
+  width: 60rem;
+}
+
+.main__text {
+  font-size: 5.2rem;
+}
+
+.accordion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion__title {
+  width: 60rem;
+  padding: 3rem;
+  font-size: 2.7rem;
+  cursor: pointer;
+}
+
+.plus__anim {
+  height: 3rem;
+  width: 3rem;
+  display: none;
+}
+
+img {
+  width: 35rem;
+  cursor: pointer;
+}
+
+.accordion__title:hover {
+  color: red;
+  background-color: blue;
+  border: 0.2rem solid red;
+}
+
+.accordion:hover .plus__anim{
+  display: block;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 66rem;
+}
+
+.advertisement__text {
+  font-size: 2rem;
+}
+
+.accordion__input:hover ~ .accordion__title .plus__anim {
+  rotate: 45deg;
+}
+
+.accordion__input:checked ~ .accordion__title  {
+  color: red;
+  background-color: blue;
+  border: 0.2rem solid red;
+}
+
+.accordion__img:hover {
+  height: 14rem;
+}
+
+.accordion__item:hover ~ .accordion__title {
+  color: red;
+  background-color: blue;
+  border: 0.2rem solid red;
+}
+
+.accordion__input:hover ~ .accordion__img {
+  height: 14rem;
+}
+}
+
+/* media hover to hover */
+@media (hover:hover) {
+  .accordion__title:hover {
+    color: red;
+    background-color: blue;
+    cursor: pointer;
+  }
+
+  .img:hover {
+    cursor: pointer;
+  }
+
+  .accordion__img:hover {
+    cursor: pointer;
+    height: 14rem;
+  }
+
+  .accordion__input:hover ~ .accordion__img {
+    height: 14rem;
+  }
+}
