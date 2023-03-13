@@ -1,3 +1,19 @@
+/* Mobile */
+@media only screen and (min-width: 320px) and (min-height: 568px) {
+.main__text {
+  font-size: 1rem;
+}
+
+.accordion__title {
+  font-size: 1rem;
+}
+
+.footer__wrapper {
+  font-size: 0.9rem;
+}
+
+}
+
 /* Table */
 @media only screen and (min-width: 820px) and (min-height: 1180px) {
 .main__text {
@@ -127,5 +143,10 @@ img {
 
   .accordion__img:hover {
     cursor: pointer;
+    height: 14rem;
+  }
+
+  .accordion__input:hover ~ .accordion__img {
+    height: 14rem;
   }
 }
